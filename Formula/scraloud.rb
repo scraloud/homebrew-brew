@@ -2,16 +2,16 @@
 class Scraloud < Formula
   desc "Deploy your scrapers to cloud and manage them easily."
   homepage "https://scraloud.com/"
-  version "0.1.5"
+  version "0.1.6"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/scraloud/cli/releases/download/v0.1.5/cli_0.1.5_Darwin_x86_64.tar.gz"
-    sha256 "81254229093e7051ba2d78e3cc9a25bc49eb4162c6a7fa0075bf18a045308d50"
+    url "https://github.com/scraloud/scraloud/releases/download/v0.1.6/scraloud_0.1.6_Darwin_x86_64.tar.gz"
+    sha256 "ef44c2eeb0e5e7f31a1b153d81830192cecee900a08c2cf8fc1cced3ac75a680"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/scraloud/cli/releases/download/v0.1.5/cli_0.1.5_Linux_x86_64.tar.gz"
-      sha256 "b9c58b435542cbab3842ac62e901b0937741192333f122b59ab10d2aca02649c"
+      url "https://github.com/scraloud/scraloud/releases/download/v0.1.6/scraloud_0.1.6_Linux_x86_64.tar.gz"
+      sha256 "2f16a5d62f12289c844cd1fc6b3f54f55178f84507e53f88d332e818646b6251"
     end
   end
   
